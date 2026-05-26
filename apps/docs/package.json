@@ -1,0 +1,17 @@
+{
+  "name": "@design-system/docs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "dependencies": {
+    "@design-system/components": "*",
+    "@design-system/tokens": "*"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
